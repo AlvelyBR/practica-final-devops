@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "jest --detectOpenHandles"
+    "test": "npx jest --detectOpenHandles"
   },
   "dependencies": {
     "express": "^4.22.1"
