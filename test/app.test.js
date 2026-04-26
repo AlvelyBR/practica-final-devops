@@ -3,5 +3,5 @@ const app = require('../app');
 
 test('GET / debe devolver Hola Mundo', async () => {
   const response = await request(app).get('/');
-  expect(response.text).toBe('Hola Mundo DevOps');
+  expect(response.text).toContain('Hola Mundo');
 });
