@@ -52,7 +52,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>Hola Mundo 🚀</h1>
+        <h1>Hola Mundo</h1>
         <p>Mi primera app con DevOps</p>
         <div class="badge">CI/CD con GitHub Actions</div>
       </div>
