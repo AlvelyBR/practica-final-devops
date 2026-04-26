@@ -35,7 +35,7 @@ jobs:
 
       - name: Build imagen Docker
 
-        run: docker build -t alvelybr/hola-mundo-app .
+        run: docker build -t alvelybr/practica-final-devops .
 
       - name: Subir imagen a Docker Hub
-        run: docker push alvelybr/hola-mundo-app
+        run: docker push alvelybr/practica-final-devops
